@@ -20,7 +20,7 @@
                  */
                     session_start();
                     if(isset($_SESSION['id']) && !(empty($_SESSION['id']))){						
-                        header('Location:welcome.php');
+                        header('Location:index.html');
                     }
                     else{
                         include "_/includes/session.php";
